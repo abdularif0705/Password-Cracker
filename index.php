@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<head><title>Abdul Arif's MD5 Password Cracker</title></head>
+<head><title>Abdul Arif MD5 Password Cracker</title></head>
 <!--https://www.wa4e.com/assn/crack/-->
 <body>
-<h1>MD5 cracker</h1>
+<h1>MD5 Password Cracker</h1>
 <p>
     This application takes an MD5 hash of a four
     digit pin and check all 10,000 possible four
@@ -77,7 +77,7 @@ if ( isset($_GET['md5']) ) {
 <li><a href="index.php">Reset</a></li>
 <li><a href="md5.php">MD5 Encoder</a></li>
 <li><a
-href="https://github.com/csev/wa4e/tree/master/code/crack"
+href="https://github.com/abdularif0705/Password-Cracker"
 target="_blank">Source code for this application</a></li>
 </ul>
 </body>
