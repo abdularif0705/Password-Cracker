@@ -16,4 +16,3 @@ if ( isset($_GET['encode']) ) {
 <p><a href="md5.php">Reset</a></p>
 <p><a href="index.php">Back to Cracking</a></p>
 </body>
-</html>
