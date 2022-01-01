@@ -22,9 +22,9 @@ For this shows the right and wrong way to check the has for "1234":
 $check = hash('md5', '1234'); // Correct - hashing a string
 $check = hash('md5', 1234); // Incorrect - hashing an integer
 ```
-It also prints out the first 15 attempts to reverse-hash including both the MD5 value and PIN that it was testing.It also prints out the elapsed time for your computation.
-This code works for all hash_pins.
-Given this data, I had to find all pins except one.
+It also prints out the first 15 attempts to reverse-hash including both the MD5 value and PIN that it was testing.It also prints out the elapsed time for your computation. This code works for all hash_pins.
+
+Given this data, I found all the pins except for the third email. This is because the hash_pin was not a real has_pin but rather gibberish.
 | email	           | pin | hash_pin                      |
 |------------------|-----|-------------------------------|
 |csev@umich.edu	   |???? |0bd65e799153554726820ca639514029|
